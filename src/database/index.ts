@@ -1,7 +1,7 @@
-import {createConnection} from 'typeorm'
+import { createConnection } from 'typeorm'
 
 createConnection().then(() => {
   console.log("Conexão com o banco de dados realizada com sucesso")
 }).catch(err => {
-  console.log("Conexão falhou")
+  console.log(err)
 })
