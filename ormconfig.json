@@ -5,7 +5,6 @@
   "username": "root",
   "password": "admin",
   "database": "valoriza",
-  "synchronize": false,
   "entities": [
     "src/entities/*.ts"
   ],
